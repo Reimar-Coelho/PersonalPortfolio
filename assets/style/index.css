@@ -311,3 +311,19 @@ div h2 span {
     color: #6F6F6F;
 }
 
+.card[for="c1"] {
+    background-image: url(../img/trajado.jfif);
+    background-position: center;
+}
+.card[for="c2"] {
+    background-image: url(assets/img/about-me2.webp);
+    background-position: center;
+}
+.card[for="c3"] {
+    background-image: url(/img/edujor2.webp);
+    background-position: center;
+}
+.card[for="c4"] {
+    background-image: url(/assets/img/fiap.png);
+    background-position: center;
+}
