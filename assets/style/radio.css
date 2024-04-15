@@ -4,10 +4,9 @@
 
 .wrapper {
     width: 100%;
-    height: 100vh;
+    height: 57vh;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .container {
@@ -24,9 +23,9 @@
     cursor: pointer;
     overflow: hidden;
     border-radius: 2rem;
-    margin: 0 10px;
+    margin-right: 20px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     transition: .6s cubic-bezier(.28,-0.03,0,.99);
     box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
 }
@@ -36,11 +35,16 @@
     display: flex;
     flex-wrap: nowrap;
     margin-bottom: 15px;
+    padding: 10px 10px 15px 0;
+    background: transparent;
+    backdrop-filter: blur(0px);
+    color: #ffffff;
+    padding-top: 30px;
 }
 
 .card > .row > .icon {
-    background: #223;
-    color: white;
+    background: #242533;
+    color: #F14F4F;
     border-radius: 50%;
     width: 50px;
     display: flex;
@@ -62,12 +66,14 @@
 }
 
 .description p {
-    color: #b0b0ba;
-    padding-top: 5px;
+    color: #e9e9e9;
+    padding: 10px;
+    font-weight: 500;
 }
 
 .description h4 {
     text-transform: uppercase;
+    padding-left: 10px;
 }
 
 input {
@@ -83,16 +89,23 @@ input:checked + label .description {
     transform: translateY(0) !important;
 }
 
+input:checked + .card > .row {
+    backdrop-filter: blur(20px);
+}
+
 .card[for="c1"] {
     background-image: url(/assets/img/trajado.jfif);
     background-position: center;
 }
 .card[for="c2"] {
-    background-color: black;
+    background-image: url(/assets/img/about-me2.webp);
+    background-position: center;
 }
 .card[for="c3"] {
-    background-color: black;
+    background-image: url(/assets/img/edujor2.webp);
+    background-position: center;
 }
 .card[for="c4"] {
-    background-color: black;
+    background-image: url(/assets/img/fiap.png);
+    background-position: center;
 }
