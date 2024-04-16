@@ -7,15 +7,16 @@
 }
 
 body {
-    background-color: #323544;
+    background-color: #242533;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: #323544;
 }
 
 nav img {
@@ -239,7 +240,8 @@ nav img {
 
 
 header {
-    margin-left: 6%;
+    padding-left: 6%;
+    background-color: #323544;
     display: flex;
     justify-content: space-between;
 }
@@ -275,13 +277,14 @@ h1 span {
 
 #aboutMe {
     padding-left: 6%;
+    padding-bottom: 100px;
 }
 
 div h2 {
-    padding-top: 60px;
+    padding-top: 70px;
     font-size: 32px;
     font-weight: 600;
-    
+    padding-bottom: 70px;
 }
 
 div h2 span {
@@ -326,3 +329,111 @@ div h2 span {
     background-image: url(../img/fiap.png);
     background-position: center;
 }
+
+.headerimg {
+    position: absolute;
+    translate: 85%;
+    z-index: -1;
+    top: 7%;
+}
+
+#image-track {
+  display: flex;
+  gap: 4vmin;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(0%, -50%); 
+  user-select: none; /* -- Prevent image highlighting -- */
+}
+
+#image-track > .image {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: 100% center;
+}
+
+/* -- YouTube Link Styles -- */
+
+body.menu-toggled > .meta-link > span {
+  color: rgb(30, 30, 30);
+}
+
+#source-link {
+  bottom: 60px;
+}
+
+#source-link > i {
+  color: rgb(94, 106, 210);
+}
+
+#yt-link > i {
+  color: rgb(239, 83, 80);
+}
+
+.meta-link {
+  align-items: center;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  bottom: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;  
+  display: inline-flex;
+  gap: 5px;
+  left: 10px;
+  padding: 10px 20px;
+  position: fixed;
+  text-decoration: none;
+  transition: background-color 400ms, border-color 400ms;
+  z-index: 10000;
+}
+
+.meta-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.meta-link > i, .meta-link > span {
+  height: 20px;
+  line-height: 20px;
+}
+
+.meta-link > span {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+iframe {
+    margin-top: 100px;
+    width: 100%;
+    height: 40vh;
+}
+
+#skills {
+    height: 100vh;
+}
+
+.skillTitle h2 span {
+    border-bottom: 10px solid #C0A338;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.skillTitle h2 {
+    padding-left: 6%;
+    padding-bottom: 0;
+}
+
+#particles{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
