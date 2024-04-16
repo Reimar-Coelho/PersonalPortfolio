@@ -32,10 +32,10 @@ nav img {
 .nav-itens a {
     position: relative;
     display: inline-block;
-    margin-right: 60px;
-    font-size: 32px;
+    font-size: 22px;
+    margin-left: 20px;
     font-weight: 600;
-    padding: 15px 30px;
+    padding: 7.5px 15px;
     text-transform: uppercase;
     text-decoration: none;
     overflow: hidden;
@@ -50,7 +50,7 @@ nav img {
     color: #323544;
     background: #F14F4F;
     box-shadow: 0 0 10px #F14F4F, 0 0 40px #F14F4F, 0 0 80px #F14F4F;
-    transition-delay: 1s;
+    transition-delay: 0.5s;
 }
 
 .h2-1 span, .h2-2 span, .h2-3 span{
@@ -67,7 +67,7 @@ nav img {
 }
 .h2-1:hover span:nth-child(1) {
     left: 100%;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .h2-1 span:nth-child(3) {
@@ -79,8 +79,8 @@ nav img {
 }
 .h2-1:hover span:nth-child(3) {
     right: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
+    transition: 0.5s;
+    transition-delay: 0.25s;
 }
 
 .h2-1 span:nth-child(2) {
@@ -92,8 +92,8 @@ nav img {
 }
 .h2-1:hover span:nth-child(2) {
     top: 100%;
-    transition: 1s;
-    transition-delay: 0.25s;
+    transition: 0.5s;
+    transition-delay: 0.125s;
 }
 
 .h2-1 span:nth-child(4) {
@@ -105,8 +105,8 @@ nav img {
 }
 .h2-1:hover span:nth-child(4) {
     bottom: 100%;
-    transition: 1s;
-    transition-delay: 0.75s;
+    transition: 0.5s;
+    transition-delay: 0.375s;
 }
 
 
@@ -118,7 +118,7 @@ nav img {
     color: #323544;
     background: #C0A338;
     box-shadow: 0 0 10px #C0A338, 0 0 40px #C0A338, 0 0 80px #C0A338;
-    transition-delay: 1s;
+    transition-delay: 0.5s;
 }
 
 .h2-2 span:nth-child(1) {
@@ -130,7 +130,7 @@ nav img {
 }
 .h2-2:hover span:nth-child(1) {
     left: 100%;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .h2-2 span:nth-child(3) {
@@ -142,8 +142,8 @@ nav img {
 }
 .h2-2:hover span:nth-child(3) {
     right: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
+    transition: 0.5s;
+    transition-delay: 0.25s;
 }
 
 .h2-2 span:nth-child(2) {
@@ -155,8 +155,8 @@ nav img {
 }
 .h2-2:hover span:nth-child(2) {
     top: 100%;
-    transition: 1s;
-    transition-delay: 0.25s;
+    transition: 0.5s;
+    transition-delay: 0.125s;
 }
 
 .h2-2 span:nth-child(4) {
@@ -168,8 +168,8 @@ nav img {
 }
 .h2-2:hover span:nth-child(4) {
     bottom: 100%;
-    transition: 1s;
-    transition-delay: 0.75s;
+    transition: 0.5s;
+    transition-delay: 0.375s;
 }
 
 
@@ -181,7 +181,7 @@ nav img {
     color: #323544;
     background: #237AFD;
     box-shadow: 0 0 10px #237AFD, 0 0 40px #237AFD, 0 0 80px #237AFD;
-    transition-delay: 1s;
+    transition-delay: 0.5s;
 }
 
 .h2-3 span:nth-child(1) {
@@ -193,7 +193,7 @@ nav img {
 }
 .h2-3:hover span:nth-child(1) {
     left: 100%;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .h2-3 span:nth-child(3) {
@@ -205,8 +205,8 @@ nav img {
 }
 .h2-3:hover span:nth-child(3) {
     right: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
+    transition: 0.5s;
+    transition-delay: 0.25s;
 }
 
 .h2-3 span:nth-child(2) {
@@ -218,8 +218,8 @@ nav img {
 }
 .h2-3:hover span:nth-child(2) {
     top: 100%;
-    transition: 1s;
-    transition-delay: 0.25s;
+    transition: 0.5s;
+    transition-delay: 0.125s;
 }
 
 .h2-3 span:nth-child(4) {
@@ -231,8 +231,8 @@ nav img {
 }
 .h2-3:hover span:nth-child(4) {
     bottom: 100%;
-    transition: 1s;
-    transition-delay: 0.75s;
+    transition: 0.5s;
+    transition-delay: 0.375s;
 }
 
 
@@ -265,13 +265,12 @@ h1 span {
 
 .header-2 {
     margin-right: 10%;
-    margin-top: 5%;
 }
 
 .header-2 h3 {
     direction: rtl;
-    font-size: 48px;
-    max-width: 480px;
+    font-size: 40px;
+    max-width: 396px;
 }
 
 #aboutMe {
