@@ -35,3 +35,24 @@ revelar.reveal('.efeito-title', {
     distance: '90px', 
     origin: 'left'
 })
+
+revelar.reveal('.email', { 
+    duration: 2000, 
+    delay: 200,
+    distance: '90px', 
+    origin: 'left'
+})
+
+revelar.reveal('.contactSubt', { 
+    duration: 2000, 
+    delay: 200,
+    distance: '90px', 
+    origin: 'left'
+})
+
+revelar.reveal('.footer02', { 
+    duration: 2000, 
+    delay: 300,
+    distance: '90px', 
+    origin: 'bottom'
+})

@@ -70,6 +70,7 @@ nav img {
     height: 2px;
     background: linear-gradient(90deg, transparent, #F14F4F);
 }
+
 .h2-1:hover span:nth-child(1) {
     left: 100%;
     transition: 0.5s;
@@ -82,6 +83,7 @@ nav img {
     height: 2px;
     background: linear-gradient(270deg, transparent, #F14F4F);
 }
+
 .h2-1:hover span:nth-child(3) {
     right: 100%;
     transition: 0.5s;
@@ -133,6 +135,7 @@ nav img {
     height: 2px;
     background: linear-gradient(90deg, transparent, #C0A338);
 }
+
 .h2-2:hover span:nth-child(1) {
     left: 100%;
     transition: 0.5s;
@@ -145,6 +148,7 @@ nav img {
     height: 2px;
     background: linear-gradient(270deg, transparent, #C0A338);
 }
+
 .h2-2:hover span:nth-child(3) {
     right: 100%;
     transition: 0.5s;
@@ -158,6 +162,7 @@ nav img {
     height: 100%;
     background: linear-gradient(180deg, transparent, #C0A338);
 }
+
 .h2-2:hover span:nth-child(2) {
     top: 100%;
     transition: 0.5s;
@@ -171,12 +176,12 @@ nav img {
     height: 100%;
     background: linear-gradient(360deg, transparent, #C0A338);
 }
+
 .h2-2:hover span:nth-child(4) {
     bottom: 100%;
     transition: 0.5s;
     transition-delay: 0.375s;
 }
-
 
 .h2-3 {
     color: #237AFD;
@@ -363,8 +368,6 @@ div h2 span {
   object-position: 100% center;
 }
 
-/* -- YouTube Link Styles -- */
-
 body.menu-toggled > .meta-link > span {
   color: rgb(30, 30, 30);
 }
@@ -450,7 +453,68 @@ iframe {
     margin-top: 193px;
 }
 
-.efeito-h1, .efeito-h2, .efeito-wrapper {
-    visibility: hidden;
+
+footer {
+    height: 100vh;
+    background-color: #242533;
 }
 
+.contactTitle h2 span {
+    border-bottom: 10px solid #237AFD;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.contactTitle h2 {
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.footer01 {
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}
+
+.contactSubt h1 {
+    font-size: 48px;
+    max-width: 610px;
+    margin-bottom: 0;
+    margin-top: 195px;
+}
+
+.email h3 {
+    font-size: 32px;
+    color: #237AFD;
+    margin-top: 38px;
+}
+
+.footerIcons img {
+    width: 50px;
+    margin-right: 33px;
+}
+
+.footerLogo {
+    width: 85px;
+    height: 64px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.footer02 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    padding-bottom: 70px;
+}
+
+.mg0 {
+    margin-right: 0 !important;
+}
+
+.efeito-h1, .efeito-h2, .efeito-wrapper, .efeito-title, iframe, .email, .contactSubt, .footer02 {
+    visibility: hidden;
+}
