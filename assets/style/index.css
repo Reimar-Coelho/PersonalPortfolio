@@ -519,26 +519,8 @@ footer {
     visibility: hidden;
 }
 
-@media screen and (max-width: 989px) {
-    #aboutme {
-        min-height: 100vh;
-    }
-    .container {
-        flex-direction: column;
-        height: 80vh;
-    }
-    .wrapper {
-        height: 80vh;
-    }
-    .card{
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    input:checked + label {
-        width: 100%;
-        height: 400px;
-    }
-    div h2 {
-        padding-bottom: 30px;
+@media screen and (max-width: 1029px) {
+    nav, header, main, footer {
+        display: none;
     }
   }
